@@ -1,0 +1,26 @@
+header{
+    display:flex;
+    justify-content: center;
+    background-color:blueviolet;
+}
+main{
+    display:flex;
+    flex-direction:row;
+    background-color:aquamarine;
+}
+img{
+    height:233px;
+    width: 311px;
+    margin:5px;
+    padding:5px;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    background-color: #363434;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    font-size:10px;
+}

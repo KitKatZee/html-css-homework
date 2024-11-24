@@ -1,0 +1,54 @@
+header{
+    display:flex;
+    justify-content: center;
+    background-color:aqua;
+    border:3px solid rgb(17, 184, 206);
+}
+main{
+    background-color: aquamarine;
+    padding:10px;
+    border:3px solid rgb(17, 184, 206);
+}
+.card-fish-container{
+    display: flex;
+    flex-flow:wrap;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+.card-fish{
+    display: block;
+    width:250px;
+    height:300px;
+    padding:10px;
+    margin:10px;
+    border:2px solid rgb(49, 49, 49);
+    background-color: rgb(255, 172, 186);
+    text-align: center;
+    box-sizing: border-box;
+    border-radius:5px;
+    box-shadow:0px 4px 10px 4px  rgb(182, 9, 250);
+    
+}
+.card-fish img{
+    width:180px;
+    height:90px;
+    margin-bottom:3px;
+}
+button{
+    background-color: rgb(2, 223, 94);
+    transition: transform 0.2s ease;
+}
+button:hover{
+    background-color: rgb(77, 255, 181);
+    scale:(1.05);
+}
+footer{
+    display:flex;
+    justify-content: center;
+    background-color: #363434;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size:18px;
+}
